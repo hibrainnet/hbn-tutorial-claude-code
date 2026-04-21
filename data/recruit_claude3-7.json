@@ -1,0 +1,55 @@
+{
+  "RecruitId" : 3206074,
+  "PdfUrl" : "https://attachment.hibrain.io/recruits/3206074/1578452342235.pdf",
+  "JobPosting" : {
+    "Organization" : "한국여성정책연구원",
+    "Location" : "서울",
+    "Title" : "한국여성정책연구원 정규직 블라인드 채용 재공고"
+  },
+  "JobFields" : [ {
+    "Department" : "연구직",
+    "Fields" : [ {
+      "RecruitmentField" : "여성건강정책분야",
+      "Duties" : null,
+      "PositionLevels" : [ "부연구위원", "정규직" ],
+      "Qualifications" : [ "박사학위 이상 소지자", "이와 동등한 자격이 있는 자", "젠더에 관한 이해 및 양적, 질적 분석 가능자 우대" ],
+      "PreferredConditions" : [ "젠더에 관한 이해 및 양적, 질적 분석 가능자 우대" ],
+      "Majors" : [ "보건학", "보건정책관리학", "사회학", "여성학" ],
+      "MajorKeywords" : [ "젠더", "여성건강", "보건정책" ],
+      "DepartmentLocations" : [ "서울" ],
+      "SkillKnowledges" : [ "양적 분석", "질적 분석" ]
+    }, {
+      "RecruitmentField" : "성평등교육ㆍ문화분야",
+      "Duties" : null,
+      "PositionLevels" : [ "부연구위원", "정규직" ],
+      "Qualifications" : [ "박사학위 이상 소지자", "이와 동등한 자격이 있는 자", "젠더 연구 경력자, 양적 연구 가능자" ],
+      "PreferredConditions" : [ "젠더 연구 경력자, 양적 연구 가능자" ],
+      "Majors" : [ "여성학", "사회학", "교육학", "미디어커뮤니케이션" ],
+      "MajorKeywords" : [ "젠더", "성평등", "교육", "문화" ],
+      "DepartmentLocations" : [ "서울" ],
+      "SkillKnowledges" : [ "양적 연구" ]
+    }, {
+      "RecruitmentField" : "젠더폭력 정책분야",
+      "Duties" : null,
+      "PositionLevels" : [ "부연구위원", "정규직" ],
+      "Qualifications" : [ "박사학위 이상 소지자", "이와 동등한 자격이 있는자", "젠더폭력에 관한 이해 및 양적, 질적 분석 가능자 우대" ],
+      "PreferredConditions" : [ "젠더폭력에 관한 이해 및 양적, 질적 분석 가능자 우대" ],
+      "Majors" : [ "여성학", "사회학", "법학(형법)", "사회복지학" ],
+      "MajorKeywords" : [ "젠더폭력", "성폭력", "가정폭력" ],
+      "DepartmentLocations" : [ "서울" ],
+      "SkillKnowledges" : [ "양적 분석", "질적 분석" ]
+    }, {
+      "RecruitmentField" : "성인지데이터 분야",
+      "Duties" : null,
+      "PositionLevels" : [ "부연구위원", "정규직" ],
+      "Qualifications" : [ "박사학위 이상 소지자", "이와 동등한 자격이 있는자", "젠더에 관한 이해, 지표체계 및 빅데이터 연구 경험자 및 고급통계분석 가능자 우대" ],
+      "PreferredConditions" : [ "젠더에 관한 이해, 지표체계 및 빅데이터 연구 경험자 및 고급통계분석 가능자 우대" ],
+      "Majors" : [ "통계학", "사회학", "경제학" ],
+      "MajorKeywords" : [ "성인지", "데이터", "지표체계", "빅데이터", "통계분석" ],
+      "DepartmentLocations" : [ "서울" ],
+      "SkillKnowledges" : [ "고급통계분석", "빅데이터 연구" ]
+    } ]
+  } ],
+  "Requirements" : [ "국가공무원법상 임용에 결격사유가 없는 자", "공공기관에서 부정한 방법으로 채용된 사실이 없는 자", "연령•성별 무관" ],
+  "Preferences" : [ "국가유공자 등 취업보호대상자, 장애인", "해당분야 경력자 우대" ]
+}
