@@ -8,6 +8,10 @@
             "type": "command",
             "if": "Bash(rm *)",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/block-rm.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/tutorials/hooks/04-block-sensitive-dirs-and-sudo/hbn_block_sensitive.sh"
           }
         ]
       }
