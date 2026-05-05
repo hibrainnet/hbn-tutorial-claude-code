@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash tutorials/hooks/02-completion-notification/hbn_notify.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
