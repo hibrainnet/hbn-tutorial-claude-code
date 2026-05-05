@@ -1,0 +1,20 @@
+{
+  "hooks": [
+    {
+      "event": "PostToolUse",
+      "hooks": [
+        {
+          "type": "http",
+          "matcher": "Write|Edit",
+          "url": "http://localhost:9000/hook",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Hook-Source": "claude-code"
+          },
+          "timeout": 5000
+        }
+      ]
+    }
+  ]
+}

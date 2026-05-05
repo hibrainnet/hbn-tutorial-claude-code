@@ -41,6 +41,16 @@
           {
             "type": "prompt",
             "prompt": "방금 수정한 코드를 아래 보안 체크리스트 기준으로 검토하고, 문제가 있으면 즉시 수정하세요:\n1. SQL Injection: 사용자 입력이 쿼리에 직접 삽입되지 않는가?\n2. XSS: 출력 시 HTML 이스케이프 처리가 되어 있는가?\n3. 인증/인가: 민감한 엔드포인트에 권한 검사가 있는가?\n4. 하드코딩된 시크릿: 비밀번호나 API 키가 코드에 포함되어 있지 않은가?\n문제가 없으면 '보안 체크 완료'라고 짧게 답하세요."
+          },
+          {
+            "type": "http",
+            "url": "http://localhost:9000/hook",
+            "method": "POST",
+            "headers": {
+              "Content-Type": "application/json",
+              "X-Hook-Source": "claude-code"
+            },
+            "timeout": 5000
           }
         ]
       }
