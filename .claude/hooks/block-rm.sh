@@ -14,5 +14,3 @@ if echo "$COMMAND" | grep -q 'rm -rf'; then
 else
   exit 0
 fi
-
-
