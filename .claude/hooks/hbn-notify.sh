@@ -8,16 +8,12 @@ INPUT=$(cat)
 TITLE="Claude Code"
 MESSAGE="작업이 완료되었습니다 ✅"
 
-# 로그 디렉터리 설정
+# macOS 알림 표시 (terminal-notifier: 알림센터 배너 보장)
+terminal-notifier -title "$TITLE" -message "$MESSAGE" -sound "Glass" -activate "com.apple.Terminal"
+
+# 작업 완료 시각을 로그 파일에 기록 (훅은 프로젝트 루트에서 실행된다)
 LOG_DIR=".claude/logs"
 mkdir -p "$LOG_DIR"
-
-# macOS 알림 표시 (terminal-notifier: 알림센터 배너 보장)
-NOTIFY_OUTPUT=$(terminal-notifier -title "$TITLE" -message "$MESSAGE" -sound "Glass" -activate "com.apple.Terminal" 2>&1)
-NOTIFY_EXIT=$?
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] terminal-notifier exit=$NOTIFY_EXIT output=$NOTIFY_OUTPUT" >> "$LOG_DIR/notify_debug.log"
-
-# 작업 완료 시각 기록
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] 작업 완료" >> "$LOG_DIR/completion_log.txt"
 
 exit 0
