@@ -1,0 +1,17 @@
+{
+  "env": {
+    "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+  },
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash tutorials/hooks/05-slack-notify-on-sudo/hbn_slack_notify.sh",
+          "matcher": "Bash"
+        }
+      ]
+    }
+  ]
+}

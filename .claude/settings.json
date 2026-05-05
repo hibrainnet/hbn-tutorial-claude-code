@@ -11,6 +11,10 @@
           },
           {
             "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/tutorials/hooks/05-slack-notify-on-sudo/hbn_slack_notify.sh"
+          },
+          {
+            "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR\"/tutorials/hooks/04-block-sensitive-dirs-and-sudo/hbn_block_sensitive.sh"
           }
         ]
