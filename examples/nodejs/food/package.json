@@ -1,0 +1,21 @@
+{
+  "name": "hbn-food-filter",
+  "version": "1.0.0",
+  "description": "창원 지역 음식점 추출 프로그램",
+  "main": "dist/hbn_food_filter.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/hbn_food_filter.js",
+    "dev": "ts-node src/hbn_food_filter.ts"
+  },
+  "dependencies": {
+    "@hbn/base": "github:hibrainnet/hbn-component-base#v4",
+    "csv-parse": "^5.6.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
